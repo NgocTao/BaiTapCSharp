@@ -1,0 +1,5 @@
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION & STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\obj\Debug\netcoreapp3.1\Practice01.csproj.AssemblyReference.cache
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION & STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\obj\Debug\netcoreapp3.1\Practice01.GeneratedMSBuildEditorConfig.editorconfig
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION & STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\obj\Debug\netcoreapp3.1\Practice01.AssemblyInfoInputs.cache
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION & STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\obj\Debug\netcoreapp3.1\Practice01.AssemblyInfo.cs
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION & STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\obj\Debug\netcoreapp3.1\Practice01.csproj.CoreCompileInputs.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ENUMERATION_STATIC/1.0.0": {
+        "runtime": {
+          "ENUMERATION_STATIC.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ENUMERATION_STATIC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
