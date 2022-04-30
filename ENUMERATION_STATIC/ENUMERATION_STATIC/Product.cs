@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ENUMERATION_STATIC
+namespace Practice01
 {
     internal class Product
     {
