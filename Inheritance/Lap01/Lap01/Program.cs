@@ -13,6 +13,8 @@ namespace Lap01
             studentTest.FindbySeri("ádsadsad");
             studentTest.Scholarship();
             studentTest.Sort();
+            int n = 10;
+            string[] a = new string [n];
         } 
     }
 }

@@ -54,4 +54,33 @@ namespace Lap01
             }
         }
     }
+    public class Teacher : Person
+    {
+        public string NameClass = "";
+        public int WageOnHour;
+        public int QuantityHourTeach;
+        public override void InputInfo()
+        {
+            base.InputInfo();
+            Console.WriteLine("Input name class (Name class begin by key: G, H, I, K, L, M): ");
+            NameClass = Console.ReadLine();
+            Console.WriteLine("Input  Wage on hour");
+            WageOnHour = int.Parse(Console.ReadLine());
+        }
+        public override void ShowInfo()
+        {
+            base.ShowInfo();
+            Console.WriteLine("Name Class: {0}\n,Wage On Hour: {1}", NameClass, WageOnHour);
+        }
+        public int GetWage()
+        {
+            int wage = 0;
+            if (NameClass.IndexOf('L') == 0 || NameClass.IndexOf('M') == 0)
+                wage = WageOnHour * QuantityHourTeach + 200000;
+            else if (NameClass.IndexOf('G') == 0 || NameClass.IndexOf('H') == 0 || NameClass.IndexOf('I') == 0 || NameClass.IndexOf('K') == 0)
+                wage = WageOnHour * QuantityHourTeach;
+
+            return wage;
+        }
+    }
 }
