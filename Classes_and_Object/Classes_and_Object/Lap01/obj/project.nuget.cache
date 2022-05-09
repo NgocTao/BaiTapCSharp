@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WmaaZgTe2/qY54dLKm3ydKO2I0SQeU2Nw8jaYe6YwJePUC0D7dc3ofikge/HIT4Ev+oog2QwKuTFZwUaMwAoYg==",
+  "success": true,
+  "projectFilePath": "D:\\LearnCSharp\\BàiTapCsharp\\ENUMERATION_STATIC\\Classes_and_Object\\Classes_and_Object\\Lap01\\Lap01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+  ],
+  "logs": []
+}

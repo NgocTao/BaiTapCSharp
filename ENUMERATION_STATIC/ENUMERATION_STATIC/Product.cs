@@ -1,29 +1,49 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Practice01
 {
     internal class Product
     {
-        private string Name;
-        private int Quantity;
-        private int Price;
-        public int  Sum_Price;
+        private string _name;
+        private int _quantity;
+        private int _price;
+
+        private static int _totalPrice;
+        public static int TotalPrice
+        {
+            get
+            {
+                return _totalPrice;
+            }
+        }
+
+        public string Name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                _name = value;
+            }
+        }
+
         public Product(string name, int quantity, int price)
         {
-            Name = name;
-            Quantity = quantity;
-            Price = price;
-
+            _name = name;
+            _quantity = quantity;
+            _price = price;
         }
         public void Show()
         {
-            Console.WriteLine("{0} \t, {1}, \t {2}",Name, Quantity, Price);
+            Console.WriteLine("{0} \t, {1}, \t {2}", _name, _quantity, _price);
         }
-        public int SumPrice()
+        public int CalculatorPrice()
         {
-            return Sum_Price += Quantity * Price;
+            int a = _quantity * _price;
+            _totalPrice += a;
+            return a;
         }
     }
 

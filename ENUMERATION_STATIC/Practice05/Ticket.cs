@@ -17,13 +17,16 @@ namespace Practice05
     }
     internal class Ticket
     {
-        private string RowChair = "";
+        private char RowChair = ' ';
         private int NumbChair;
-        private int QuantityTiket = 0;
         private Status status;
-        public float Revenue = 0;
+        private TypeTicket type;
+
+        private int QuantityTiket = 0;
         public int SumSold = 0;
-        public Ticket(string rowChair, int numbChair)
+        public float Revenue = 0;
+
+        public Ticket(char rowChair, int numbChair)
         {
             RowChair = rowChair;
             NumbChair = numbChair;
@@ -32,30 +35,20 @@ namespace Practice05
         }
         public string SetType()
         {
-            string type = "";
-            if (RowChair.Equals("C") || RowChair.Equals("D") || RowChair.Equals("E") || RowChair.Equals("F") || RowChair.Equals("G") || RowChair.Equals("H"))
+            if (RowChair >= 'C' && RowChair <= 'H')
             {
-                switch (NumbChair)
+                if (NumbChair >= 3 && NumbChair <= 9)
                 {
-                    case 3:
-                    case 4:
-                    case 5:
-                    case 6:
-                    case 7:
-                    case 8:
-                    case 9:
-                        type += TypeTicket.VIP.ToString();
-                        break;
-                    default:
-                        type += TypeTicket.Regular.ToString();
-                        break;
+                    type = TypeTicket.VIP;
+
                 }
+                else
+                    type = TypeTicket.Regular;
             }
             else
-            {
-                type += TypeTicket.Regular.ToString();
-            }
-            return type;
+                type = TypeTicket.Regular;
+
+            return type.ToString();
         }
         public int GetPrice()
         {
@@ -72,7 +65,7 @@ namespace Practice05
         }
         public void BuyTicket()
         {
-            if (status==Status.Available)
+            if (status == Status.Available)
             {
                 status = Status.Sold;
                 SumSold++;
@@ -89,7 +82,7 @@ namespace Practice05
             {
                 status = Status.Available;
                 SumSold--;
-                Revenue = Revenue- GetPrice()*0.8f;
+                Revenue = Revenue - GetPrice() * 0.8f;
             }
             if (status == Status.Available)
             {

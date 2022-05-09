@@ -7,60 +7,57 @@ namespace Practice03
 {
     internal class Classmate
     {
-        private string Name = "";
-        private string Position = "";
-        public int NameGroup;
-        private int Quantity;
-        private ArrayList Group = new ArrayList();
-        private ArrayList Student = new ArrayList();
-        public string NameTecher = "";
-        public void GetInfo(string name, string poisition, int nameGroup)
+        private string _name = "";
+        private string _position = "";
+        public int _nameGroup;
+
+        private static int _quantity;
+        public static int Quantity
         {
-            Name = name;
-            Position = poisition;
-            NameGroup = nameGroup;
-            ArrayList Student = new ArrayList { Name, Position, NameGroup };
-            if (NameGroup.Equals(1))
+            get
             {
-                ArrayList Group1 = new ArrayList();
-                Group1.AddRange(Student);
-                Group.AddRange(Group1);
+                return _quantity;
             }
-            else if (NameGroup.Equals(2))
+            set
             {
-                ArrayList Group2 = new ArrayList();
-                Group2.AddRange(Student);
-                Group.AddRange(Group2);
+                _quantity = value;
             }
-            else if (NameGroup.Equals(3))
-            {
-                ArrayList Group3 = new ArrayList();
-                Group3.AddRange(Student);
-                Group.AddRange(Group3);
-            }
-            else if (NameGroup.Equals(4))
-            {
-                ArrayList Group4 = new ArrayList();
-                Group4.AddRange(Student);
-                Group.AddRange(Group4);
-            }
-            else if (NameGroup.Equals(2))
-            {
-                ArrayList Group5 = new ArrayList();
-                Group5.AddRange(Student);
-                Group.AddRange(Group5);
-            }
-            Quantity++;
         }
-        public void GreateGroup(int numbGroup)
+        public static string NameTecher = "";
+        public static string NameClass = "";
+
+        public Classmate(string name, string poisition, int nameGroup)
         {
-            for (int i = 0; i < Group.Count; i++)
+            _name = name;
+            _position = poisition;
+            _nameGroup = nameGroup;
+            _quantity++;
+        }
+
+        public static void GetGroup(int num, List<Classmate> dsHs)
+        {
+            for (int i = 0; i < dsHs.Count; i++)
             {
-                if (i == numbGroup )
+                if (dsHs[i]._nameGroup.Equals(num))
                 {
-                    Console.WriteLine(Group[i]);
+                    dsHs[i].ShowInfo();
                 }
             }
+        }
+        public static void Find_student(string poi, List<Classmate> dsHs)
+        {
+            for (int i = 0; i < dsHs.Count; i++)
+            {
+                if (dsHs[i]._position.Equals(poi))
+                {
+                    dsHs[i].ShowInfo();
+                }
+            }
+        }
+
+        public void ShowInfo()
+        {
+            Console.WriteLine("{0}\n{1}\n{2}\n{3}\n{4}", _name, _position, _nameGroup, NameClass, NameTecher);
         }
     }
 }

@@ -14,7 +14,7 @@ namespace Lap01
             studentTest.Scholarship();
             studentTest.Sort();
             int n = 10;
-            string[] a = new string [n];
-        } 
+            string[] a = new string[n];
+        }
     }
 }

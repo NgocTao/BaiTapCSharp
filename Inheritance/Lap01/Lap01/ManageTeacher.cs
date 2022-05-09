@@ -6,37 +6,34 @@ namespace Lap01
 {
     internal class ManageTeacher
     {
-        List<Teacher> TeacherList = new List<Teacher>();
-
+        //List<Teacher> TeacherList = new List<Teacher>();
+        Teacher[] teachers = new Teacher[50];
 
         public int maxTeacher;
-        public int nextTeacher;
-        public void AddTeacher()
+        public int nextTeacher = 0;
+        public void AddTeacher(Teacher t)
         {
             Console.WriteLine("Input  quantity Max Teacher: ");
             maxTeacher = int.Parse(Console.ReadLine());
-            nextTeacher = TeacherList.Count;
-            if (nextTeacher > maxTeacher)
-                Console.WriteLine("The list teacher is full");
-            else if (nextTeacher < maxTeacher)
+            if (nextTeacher == maxTeacher)
             {
-                for (int i = 0; i < maxTeacher; i++)
-                {
-                    Console.WriteLine("Input information teacher {0}", i + 1);
-                    Teacher teacher = new Teacher();
-                    TeacherList.Add(teacher);
-                    TeacherList[i].InputInfo();
-                }
+                Console.WriteLine("Can't add teacher");
+            }
+            else
+            {
+                Teacher teacher = new Teacher();
+                teachers[nextTeacher] = teacher;
+                nextTeacher++;
             }
         }
         public void ShowInfo()
         {
             for (int i = 0; i < maxTeacher; i++)
             {
-                if (TeacherList[i] == null)
+                if (teachers[i] == null)
                     Console.WriteLine("The list teacher is emty");
                 else
-                    TeacherList[i].ShowInfo();
+                    teachers[i].ShowInfo();
             }
         }
         public double maxSalary()
@@ -44,9 +41,9 @@ namespace Lap01
             double max = 0;
             for (int i = 0; i < maxTeacher; i++)
             {
-                if (TeacherList[i].GetWage() > max)
+                if (teachers[i].GetWage() > max)
                 {
-                    max = TeacherList[i].GetWage();
+                    max = teachers[i].GetWage();
                 }
             }
             return max;
@@ -56,10 +53,10 @@ namespace Lap01
             ManageTeacher manageTeacher = new ManageTeacher();
             for (int i = 0; i < maxTeacher; i++)
             {
-                if (TeacherList[i].GetWage().Equals(manageTeacher.maxSalary()))
+                if (teachers[i].GetWage().Equals(manageTeacher.maxSalary()))
                 {
                     Console.WriteLine("Teacher have best salary is:");
-                    TeacherList[i].ShowInfo();
+                    teachers[i].ShowInfo();
                 }
             }
         }
@@ -67,8 +64,8 @@ namespace Lap01
         {
             for (int i = 0; i < maxTeacher; i++)
             {
-                if (String.Compare(nameTeacher, TeacherList[i].Name) == 0)
-                    TeacherList[i].ShowInfo();
+                if (String.Compare(nameTeacher, teachers[i].Name) == 0)
+                    teachers[i].ShowInfo();
                 else
                     Console.WriteLine("Not found");
             }

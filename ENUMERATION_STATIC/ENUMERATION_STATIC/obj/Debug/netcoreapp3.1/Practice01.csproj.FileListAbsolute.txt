@@ -3,3 +3,17 @@ D:\LearnCSharp\BàiTapCsharp\ENUMERATION & STATIC\ENUMERATION_STATIC\ENUMERATION
 D:\LearnCSharp\BàiTapCsharp\ENUMERATION & STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\obj\Debug\netcoreapp3.1\Practice01.AssemblyInfoInputs.cache
 D:\LearnCSharp\BàiTapCsharp\ENUMERATION & STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\obj\Debug\netcoreapp3.1\Practice01.AssemblyInfo.cs
 D:\LearnCSharp\BàiTapCsharp\ENUMERATION & STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\obj\Debug\netcoreapp3.1\Practice01.csproj.CoreCompileInputs.cache
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\obj\Debug\netcoreapp3.1\Practice01.csproj.AssemblyReference.cache
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\obj\Debug\netcoreapp3.1\Practice01.GeneratedMSBuildEditorConfig.editorconfig
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\obj\Debug\netcoreapp3.1\Practice01.AssemblyInfoInputs.cache
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\obj\Debug\netcoreapp3.1\Practice01.AssemblyInfo.cs
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\obj\Debug\netcoreapp3.1\Practice01.csproj.CoreCompileInputs.cache
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\bin\Debug\netcoreapp3.1\Practice01.exe
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\bin\Debug\netcoreapp3.1\Practice01.deps.json
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\bin\Debug\netcoreapp3.1\Practice01.runtimeconfig.json
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\bin\Debug\netcoreapp3.1\Practice01.runtimeconfig.dev.json
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\bin\Debug\netcoreapp3.1\Practice01.dll
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\bin\Debug\netcoreapp3.1\Practice01.pdb
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\obj\Debug\netcoreapp3.1\Practice01.dll
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\obj\Debug\netcoreapp3.1\Practice01.pdb
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\ENUMERATION_STATIC\obj\Debug\netcoreapp3.1\Practice01.genruntimeconfig.cache

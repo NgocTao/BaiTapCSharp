@@ -1,0 +1,14 @@
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\Inheritance\Lap01\Assignment02\bin\Debug\netcoreapp3.1\Assignment02.exe
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\Inheritance\Lap01\Assignment02\bin\Debug\netcoreapp3.1\Assignment02.deps.json
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\Inheritance\Lap01\Assignment02\bin\Debug\netcoreapp3.1\Assignment02.runtimeconfig.json
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\Inheritance\Lap01\Assignment02\bin\Debug\netcoreapp3.1\Assignment02.runtimeconfig.dev.json
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\Inheritance\Lap01\Assignment02\bin\Debug\netcoreapp3.1\Assignment02.dll
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\Inheritance\Lap01\Assignment02\bin\Debug\netcoreapp3.1\Assignment02.pdb
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\Inheritance\Lap01\Assignment02\obj\Debug\netcoreapp3.1\Assignment02.csproj.AssemblyReference.cache
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\Inheritance\Lap01\Assignment02\obj\Debug\netcoreapp3.1\Assignment02.GeneratedMSBuildEditorConfig.editorconfig
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\Inheritance\Lap01\Assignment02\obj\Debug\netcoreapp3.1\Assignment02.AssemblyInfoInputs.cache
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\Inheritance\Lap01\Assignment02\obj\Debug\netcoreapp3.1\Assignment02.AssemblyInfo.cs
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\Inheritance\Lap01\Assignment02\obj\Debug\netcoreapp3.1\Assignment02.csproj.CoreCompileInputs.cache
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\Inheritance\Lap01\Assignment02\obj\Debug\netcoreapp3.1\Assignment02.dll
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\Inheritance\Lap01\Assignment02\obj\Debug\netcoreapp3.1\Assignment02.pdb
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\Inheritance\Lap01\Assignment02\obj\Debug\netcoreapp3.1\Assignment02.genruntimeconfig.cache

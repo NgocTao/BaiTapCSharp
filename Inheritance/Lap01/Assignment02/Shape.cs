@@ -20,9 +20,10 @@ namespace Assignment02
         }
         public override string ToString()
         {
-            string a = "";
-            a += String.Format("A shape with color of {0} and filled", Color);
-            return a;
+            string nameFilled = "filled";
+            if (!Filled)
+                nameFilled = "non-filled";
+            return String.Format("A shape with color of {0} and {1}", Color, nameFilled);
         }
     }
     public class Circle : Shape
@@ -74,7 +75,7 @@ namespace Assignment02
         public Rectangele(double w, double l, string color, bool filled)
         {
             Width = w;
-            Width = l;
+            Length = l;
             Color = color;
             Filled = filled;
         }

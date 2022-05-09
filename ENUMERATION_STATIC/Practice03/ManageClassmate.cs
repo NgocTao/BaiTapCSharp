@@ -6,12 +6,19 @@ namespace Practice03
 {
     internal class ManageClassmate
     {
+        public List<Classmate> Classmates;
+
         public ManageClassmate()
         {
-            Classmate[] classmates = new Classmate[50];
-            for (int i = 0; i < classmates.Length; i++)
+            Classmates = new List<Classmate>(50);
+
+        }
+
+        public void Show()
+        {
+            for (int i = 0; i < Classmates.Count; i++)
             {
-                classmates[i].GetInfo()
+                Classmates[i].ShowInfo();
             }
         }
     }

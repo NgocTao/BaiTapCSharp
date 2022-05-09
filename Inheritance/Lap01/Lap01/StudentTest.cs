@@ -16,9 +16,8 @@ namespace Lap01
             {
                 Console.WriteLine("Input information student {0}", i + 1);
                 Student student = new Student();
+                student.InputInfo();
                 StudentList.Add(student);
-                StudentList[i].InputInfo();
-
             }
         }
         public void ShowInfo()
@@ -60,6 +59,20 @@ namespace Lap01
                 }
             }
         }
+
+        public void ShowMediumScore1()
+        {
+            Student best = StudentList[0];
+            Student worst = StudentList[0];
+            foreach (var sv in StudentList)
+            {
+                if (sv.MediumScore > best.MediumScore)
+                    best = sv;
+                if (sv.MediumScore < worst.MediumScore)
+                    worst = sv;
+            }
+        }
+
         public void FindbySeri(string seriStudent)
         {
             for (int i = 0; i < StudentList.Count; i++)

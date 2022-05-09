@@ -6,65 +6,61 @@ namespace Assignment01
 {
     internal class Zoo
     {
-        List<Tiger> tigers = new List<Tiger>();
+        /*List<Tiger> tigers = new List<Tiger>();
         List<Dog> dogs = new List<Dog>();
-        List<Cat> cats = new List<Cat>();
+        List<Cat> cats = new List<Cat>();*/
+
+        List<Animal> list = new List<Animal>();
         public void addAnimal(string name)
         {
             if (name.IndexOf('T') == 0)
             {
-            tigers.Add(new Tiger());
-                for (int i = 0; i < tigers.Count; i++)
-                {
-                    Console.WriteLine("Input Name");
-                    tigers[i].Name = Console.ReadLine();
-                    Console.WriteLine("Input age");
-                    tigers[i].Age = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Input describe");
-                    tigers[i].Describe = Console.ReadLine();
-                }
+                Tiger tiger = new Tiger();
+                Console.WriteLine("Input Name");
+                tiger.Name = Console.ReadLine();
+                Console.WriteLine("Input age");
+                tiger.Age = int.Parse(Console.ReadLine());
+                Console.WriteLine("Input describe");
+                tiger.Describe = Console.ReadLine();
+                list.Add(tiger);
             }
             else if (name.IndexOf('D') == 0)
             {
-            dogs.Add(new Dog());
-                for (int i = 0; i < dogs.Count; i++)
-                {
-                    Console.WriteLine("Input Name");
-                    dogs[i].Name = Console.ReadLine();
-                    Console.WriteLine("Input age");
-                    dogs[i].Age = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Input describe");
-                    dogs[i].Describe = Console.ReadLine();
-                }
+                Dog dog = new Dog();
+                Console.WriteLine("Input Name");
+                dog.Name = Console.ReadLine();
+                Console.WriteLine("Input age");
+                dog.Age = int.Parse(Console.ReadLine());
+                Console.WriteLine("Input describe");
+                dog.Describe = Console.ReadLine();
+                list.Add(new Dog());
             }
             else if (name.IndexOf('C') == 0)
             {
-                cats.Add(new Cat());
-                for (int i = 0; i < cats.Count; i++)
-                {
-                    Console.WriteLine("Input Name");
-                    cats[i].Name = Console.ReadLine();
-                    Console.WriteLine("Input age");
-                    cats[i].Age = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Input describe");
-                    cats[i].Describe = Console.ReadLine();
-                }
+                Cat cat = new Cat();
+                Console.WriteLine("Input Name");
+                cat.Name = Console.ReadLine();
+                Console.WriteLine("Input age");
+                cat.Age = int.Parse(Console.ReadLine());
+                Console.WriteLine("Input describe");
+                cat.Describe = Console.ReadLine();
+                list.Add(new Cat());
             }
         }
         public void Show()
         {
-            for (int i = 0; i < tigers.Count; i++)
-                tigers[i].DisplayInfo();
-            for (int i = 0; i < dogs.Count; i++)
+            for (int i = 0; i < list.Count; i++)
+                list[i].DisplayInfo();
+            /*for (int i = 0; i < dogs.Count; i++)
                 dogs[i].DisplayInfo();
             for (int i = 0; i < cats.Count; i++)
-                cats[i].DisplayInfo();
+                cats[i].DisplayInfo();*/
         }
         public void searchAnimal(string name)
         {
-            if (name.IndexOf('T')==0)
+            if (name.IndexOf('T') == 0)
             {
-                foreach (Tiger tiger in tigers)
+                foreach (Tiger tiger in list)
                 {
                     if (name.Equals(tiger.Name))
                     {
@@ -74,7 +70,7 @@ namespace Assignment01
             }
             else if (name.IndexOf('D') == 0)
             {
-                foreach (Dog dog in dogs)
+                foreach (Dog dog in list)
                 {
                     if (name.Equals(dog.Name))
                     {
@@ -84,7 +80,7 @@ namespace Assignment01
             }
             else if (name.IndexOf('C') == 0)
             {
-                foreach (Cat cat in cats)
+                foreach (Cat cat in list)
                 {
                     if (name.Equals(cat.Name))
                     {
@@ -95,7 +91,7 @@ namespace Assignment01
             else
             {
                 Console.WriteLine("The name is'nt exist");
-            }    
+            }
 
         }
     }

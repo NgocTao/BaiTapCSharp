@@ -1,0 +1,14 @@
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\Practice02\bin\Debug\netcoreapp3.1\Practice02.exe
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\Practice02\bin\Debug\netcoreapp3.1\Practice02.deps.json
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\Practice02\bin\Debug\netcoreapp3.1\Practice02.runtimeconfig.json
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\Practice02\bin\Debug\netcoreapp3.1\Practice02.runtimeconfig.dev.json
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\Practice02\bin\Debug\netcoreapp3.1\Practice02.dll
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\Practice02\bin\Debug\netcoreapp3.1\Practice02.pdb
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\Practice02\obj\Debug\netcoreapp3.1\Practice02.csproj.AssemblyReference.cache
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\Practice02\obj\Debug\netcoreapp3.1\Practice02.GeneratedMSBuildEditorConfig.editorconfig
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\Practice02\obj\Debug\netcoreapp3.1\Practice02.AssemblyInfoInputs.cache
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\Practice02\obj\Debug\netcoreapp3.1\Practice02.AssemblyInfo.cs
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\Practice02\obj\Debug\netcoreapp3.1\Practice02.csproj.CoreCompileInputs.cache
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\Practice02\obj\Debug\netcoreapp3.1\Practice02.dll
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\Practice02\obj\Debug\netcoreapp3.1\Practice02.pdb
+D:\LearnCSharp\BàiTapCsharp\ENUMERATION_STATIC\ENUMERATION_STATIC\Practice02\obj\Debug\netcoreapp3.1\Practice02.genruntimeconfig.cache

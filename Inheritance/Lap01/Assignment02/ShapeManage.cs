@@ -6,22 +6,20 @@ namespace Assignment02
 {
     internal class ShapeManage
     {
-        internal List<Circle> circles;
-        internal List<Rectangele> rectangeles;
+        internal List<Shape> shapes;
         public ShapeManage()
         {
-            circles = new List<Circle>();
-            rectangeles = new List<Rectangele>();
+            shapes = new List<Shape>();
         }
-        public void addCircle()
+        public void addCircle(Circle c)
         {
-            Circle c = new Circle();
-            circles.Add(c);
+            //Circle c = new Circle();
+            shapes.Add(c);
         }
         public void addRectangele()
         {
             Rectangele r = new Rectangele();
-            rectangeles.Add(r);
+            shapes.Add(r);
         }
         public void printDetail()
         {
@@ -30,49 +28,62 @@ namespace Assignment02
         }
         public void showSquare()
         {
-            for (int i = 0; i < rectangeles.Count; i++)
+            for (int i = 0; i < shapes.Count; i++)
             {
-                if (rectangeles[i].Width == rectangeles[i].Length)
+                if (shapes[i].GetType() == typeof(Rectangele))
                 {
-                    Console.WriteLine(rectangeles[i]);
+                    var rectShape = shapes[i] as Rectangele;
+
+                    if (rectShape.Width == rectShape.Length)
+                        Console.WriteLine(shapes[i]);
                 }
             }
         }
-        public void displayMaxArea()
+        public double displayMaxArea()
         {
-            double Max = 0;
-            for (int i = 0; i < circles.Count; i++)
+            Circle maAreaCircle = null;
+            for (int i = 0; i < shapes.Count; i++)
             {
-                if (circles[i].getArea() > Max)
+                if (shapes[i].GetType() == typeof(Circle))
                 {
-                    Max = circles[i].getArea();
+                    var circle = shapes[i] as Circle;
+                    if (maAreaCircle == null)
+                    {
+                        maAreaCircle = circle;
+                    }
+                    else
+                    {
+                        if (circle.getArea() > maAreaCircle.getArea())
+                        {
+                            maAreaCircle = circle;
+                        }
+                    }
                 }
             }
-            for (int i = 0; i < circles.Count; i++)
-            {
-                if (circles[i].getArea().Equals(Max))
-                {
-                    Console.WriteLine(circles[i]);
-                }
-            }
+            return maAreaCircle.getArea();
         }
-        public void displayMinPerimeter()
+        public double displayMinPerimeter()
         {
-            double Min = double.MaxValue;
-            for (int i = 0; i < circles.Count; i++)
+            Circle PeAreaCircle = null;
+            for (int i = 0; i < shapes.Count; i++)
             {
-                if (circles[i].getPerimeter() < Min)
+                if (shapes[i].GetType() == typeof(Circle))
                 {
-                    Min = circles[i].getPerimeter();
+                    var circle = shapes[i] as Circle;
+                    if (PeAreaCircle == null)
+                    {
+                        PeAreaCircle = circle;
+                    }
+                    else
+                    {
+                        if (circle.getArea() > PeAreaCircle.getPerimeter())
+                        {
+                            PeAreaCircle = circle;
+                        }
+                    }
                 }
             }
-            for (int i = 0; i < circles.Count; i++)
-            {
-                if (circles[i].getPerimeter().Equals(Min))
-                {
-                    Console.WriteLine(circles[i]);
-                }
-            }
+            return PeAreaCircle.getPerimeter();
         }
     }
 }

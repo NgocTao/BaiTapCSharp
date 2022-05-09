@@ -5,7 +5,7 @@ namespace Practice01
 {
     internal class Program
     {
-        static void Main1(string[] args)
+        static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
 
@@ -16,7 +16,10 @@ namespace Practice01
             product2.Show();
             Product product3 = new Product("ACGG", 3, 200);
             product3.Show();
-            Console.WriteLine("Sum price: {0}", product1.SumPrice() + product2.SumPrice() + product3.SumPrice());
+            product1.CalculatorPrice();
+            product2.CalculatorPrice();
+            product3.CalculatorPrice();
+            Console.WriteLine("TOng tien = {0}", Product.TotalPrice);
         }
 
     }

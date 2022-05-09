@@ -8,10 +8,8 @@ namespace Practice03
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.UTF8;
-            Classmate classmate = new Classmate();
-            ArrayList Student = new ArrayList();
-
+            ManageClassmate manager = new ManageClassmate();
+            manager.Show();
         }
     }
 }
