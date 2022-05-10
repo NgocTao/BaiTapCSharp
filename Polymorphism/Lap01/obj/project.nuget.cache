@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "y0596ByMGFDmozR3cVOPSOJ066U04vjQlsmO81fSBOwW0dCg+1nlTh1UFcHF7pv9SmVW9V0nu3ow7qbSoeTR2w==",
+  "success": true,
+  "projectFilePath": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\Polymorphism\\Lap01\\Lap01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LearnCSharp\\BàiTapCsharp\\ENUMERATION_STATIC\\Inheritance\\Lap01\\Lap01\\Lap01.csproj",
+      "projectUniqueName": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\Inheritance\\Lap01\\Lap01\\Lap01.csproj",
       "projectName": "Lap01",
-      "projectPath": "D:\\LearnCSharp\\BàiTapCsharp\\ENUMERATION_STATIC\\Inheritance\\Lap01\\Lap01\\Lap01.csproj",
+      "projectPath": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\Inheritance\\Lap01\\Lap01\\Lap01.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\LearnCSharp\\BàiTapCsharp\\ENUMERATION_STATIC\\Inheritance\\Lap01\\Lap01\\obj\\",
+      "outputPath": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\Inheritance\\Lap01\\Lap01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

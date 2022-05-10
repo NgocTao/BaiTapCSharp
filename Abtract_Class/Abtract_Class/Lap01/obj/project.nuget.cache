@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qMqB5XChKdabsZiGHe//wbK7jjClmICP+RGlDvnM4iBeFlneZD4VzoAbwOcHAGjgCRGflwVXixt1PeN9Wslr0g==",
+  "success": true,
+  "projectFilePath": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\Abtract_Class\\Abtract_Class\\Lap01\\Lap01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+  ],
+  "logs": []
+}

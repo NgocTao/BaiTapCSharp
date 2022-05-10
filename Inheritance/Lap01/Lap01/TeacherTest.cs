@@ -10,7 +10,8 @@ namespace Lap01
         
         public void AddNewTeacher()
         {
-            manageTeacher.AddTeacher();
+            Teacher t = new Teacher();
+            manageTeacher.AddTeacher(t);
         }
         public void ShowAllTeacher()
         {

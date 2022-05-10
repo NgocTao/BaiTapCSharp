@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mZMH2cP8HWTiQ8JydURvnC1CbJ9p/8bNF2uMjn/16AALK7TloizSdn2lk1cNQmSKTQLPOrHzoRNPG1sOkVTNzw==",
+  "dgSpecHash": "9nflKH6WNUhoQtq+pvrV/m2XZCebCE/0O46jBdS/pgvBKU3fX7b6rxUi/yLdnvBmruehhyMa9R1absD3tvinWQ==",
   "success": true,
-  "projectFilePath": "D:\\LearnCSharp\\BàiTapCsharp\\ENUMERATION_STATIC\\Inheritance\\Lap01\\Lap01\\Lap01.csproj",
+  "projectFilePath": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\Inheritance\\Lap01\\Lap01\\Lap01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
   ],
