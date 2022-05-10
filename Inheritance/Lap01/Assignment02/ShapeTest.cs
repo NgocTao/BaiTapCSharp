@@ -15,10 +15,9 @@ namespace Assignment02
                 Console.WriteLine
                     ("1. Add a new shape\n" +
                     "2. Print all shapes\n" +
-                    "3. Show square\n" +
-                    "4. Display circles which have maximum area\n" +
-                    "5. Display circles which have minimum perimeter\n" +
-                    "6. Exit");
+                    "3. Show part time employee\n" +
+                    "4. Search employee by id\n" +
+                    "5. Exit";
                 int a = int.Parse(Console.ReadLine());
                 switch (a)
                 {

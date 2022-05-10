@@ -49,7 +49,7 @@ namespace Lap01
                 }
             }
         }
-        internal void showEmployee()
+        internal void printEmployees()
         {
             for (int i = 0; i <= nextEmp; i++)
             {
@@ -62,6 +62,16 @@ namespace Lap01
             for (int i = 0; i <= nextEmp; i++)
             {
                 if (empList[i].GetType() == typeof (EmployeePartTime))
+                {
+                    Console.WriteLine(empList[i]);
+                }
+            }
+        }
+        internal  void searchEmployeeById(string id)
+        {
+            for (int i = 0; i <= nextEmp; i++)
+            {
+                if (empList[i].Id.Equals(id))
                 {
                     Console.WriteLine(empList[i]);
                 }
