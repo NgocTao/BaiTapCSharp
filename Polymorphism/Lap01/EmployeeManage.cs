@@ -32,7 +32,7 @@ namespace Lap01
             }
             else
             {
-                Console.WriteLine("Add employee fulltime: 0/nAdd employee partime: 1");
+                Console.WriteLine("Add employee fulltime: 0\nAdd employee partime: 1");
                 int type = int.Parse(Console.ReadLine());
                 switch (type)
                 {
@@ -49,6 +49,7 @@ namespace Lap01
                 }
             }
         }
+
         internal void printEmployees()
         {
             for (int i = 0; i <= nextEmp; i++)
@@ -67,6 +68,7 @@ namespace Lap01
                 }
             }
         }
+
         internal  void searchEmployeeById(string id)
         {
             for (int i = 0; i <= nextEmp; i++)

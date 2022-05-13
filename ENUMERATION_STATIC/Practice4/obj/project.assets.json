@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LearnCSharp\\BàiTapCsharp\\ENUMERATION_STATIC\\ENUMERATION_STATIC\\Practice4\\Practice4.csproj",
+      "projectUniqueName": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\ENUMERATION_STATIC\\Practice4\\Practice4.csproj",
       "projectName": "Practice4",
-      "projectPath": "D:\\LearnCSharp\\BàiTapCsharp\\ENUMERATION_STATIC\\ENUMERATION_STATIC\\Practice4\\Practice4.csproj",
+      "projectPath": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\ENUMERATION_STATIC\\Practice4\\Practice4.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\LearnCSharp\\BàiTapCsharp\\ENUMERATION_STATIC\\ENUMERATION_STATIC\\Practice4\\obj\\",
+      "outputPath": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\ENUMERATION_STATIC\\Practice4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

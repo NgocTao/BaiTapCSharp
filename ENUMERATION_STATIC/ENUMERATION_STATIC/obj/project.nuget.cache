@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4e3BHM9JEHVXl9+VzN828c393WNWqjtBpWgHo0r1PwWwgO1+iHrAF5rrUc00STP1qyRaIKmHv7H9OZHKZA9AKg==",
+  "dgSpecHash": "mtbD9NXlhW468ny8c8/Wm04yLCF4VAYWlsaKEuaygW43dFYAgIqyOpbCX/Bvf213FFOFDWp5Q4kpb1/EMyW+mA==",
   "success": true,
-  "projectFilePath": "D:\\LearnCSharp\\BàiTapCsharp\\ENUMERATION_STATIC\\ENUMERATION_STATIC\\ENUMERATION_STATIC\\Practice01.csproj",
+  "projectFilePath": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\ENUMERATION_STATIC\\ENUMERATION_STATIC\\Practice01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
   ],

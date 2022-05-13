@@ -6,7 +6,7 @@ namespace Lap01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            EmployeeTest employeeTest = new EmployeeTest();
         }
     }
     internal class EmployeeTest
@@ -44,5 +44,5 @@ namespace Lap01
                 }
             }
         }
-	}
+    }
 }

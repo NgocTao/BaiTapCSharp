@@ -1,0 +1,14 @@
+D:\LearnCSharp\BàiTapCsharp\Resources\Polymorphism\Lap01\bin\Debug\netcoreapp3.1\Lap01.exe
+D:\LearnCSharp\BàiTapCsharp\Resources\Polymorphism\Lap01\bin\Debug\netcoreapp3.1\Lap01.deps.json
+D:\LearnCSharp\BàiTapCsharp\Resources\Polymorphism\Lap01\bin\Debug\netcoreapp3.1\Lap01.runtimeconfig.json
+D:\LearnCSharp\BàiTapCsharp\Resources\Polymorphism\Lap01\bin\Debug\netcoreapp3.1\Lap01.runtimeconfig.dev.json
+D:\LearnCSharp\BàiTapCsharp\Resources\Polymorphism\Lap01\bin\Debug\netcoreapp3.1\Lap01.dll
+D:\LearnCSharp\BàiTapCsharp\Resources\Polymorphism\Lap01\bin\Debug\netcoreapp3.1\Lap01.pdb
+D:\LearnCSharp\BàiTapCsharp\Resources\Polymorphism\Lap01\obj\Debug\netcoreapp3.1\Lap01.csproj.AssemblyReference.cache
+D:\LearnCSharp\BàiTapCsharp\Resources\Polymorphism\Lap01\obj\Debug\netcoreapp3.1\Lap01.GeneratedMSBuildEditorConfig.editorconfig
+D:\LearnCSharp\BàiTapCsharp\Resources\Polymorphism\Lap01\obj\Debug\netcoreapp3.1\Lap01.AssemblyInfoInputs.cache
+D:\LearnCSharp\BàiTapCsharp\Resources\Polymorphism\Lap01\obj\Debug\netcoreapp3.1\Lap01.AssemblyInfo.cs
+D:\LearnCSharp\BàiTapCsharp\Resources\Polymorphism\Lap01\obj\Debug\netcoreapp3.1\Lap01.csproj.CoreCompileInputs.cache
+D:\LearnCSharp\BàiTapCsharp\Resources\Polymorphism\Lap01\obj\Debug\netcoreapp3.1\Lap01.dll
+D:\LearnCSharp\BàiTapCsharp\Resources\Polymorphism\Lap01\obj\Debug\netcoreapp3.1\Lap01.pdb
+D:\LearnCSharp\BàiTapCsharp\Resources\Polymorphism\Lap01\obj\Debug\netcoreapp3.1\Lap01.genruntimeconfig.cache
