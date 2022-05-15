@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\Inheritance\\Lap01\\Exercise01\\Exercise01.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\BàiTapCsharp\\Inheritance\\Lap01\\Exercise01\\Exercise01.csproj",
       "projectName": "Exercise01",
-      "projectPath": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\Inheritance\\Lap01\\Exercise01\\Exercise01.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\Documents\\BàiTapCsharp\\Inheritance\\Lap01\\Exercise01\\Exercise01.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\Inheritance\\Lap01\\Exercise01\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\Documents\\BàiTapCsharp\\Inheritance\\Lap01\\Exercise01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

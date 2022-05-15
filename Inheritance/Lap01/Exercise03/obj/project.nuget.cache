@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NTHxK5EJ3cUvXQGkkeLOmuic/H1Vkt8q6kEVLl8+/GB557QT0pmfJwRP0mVCef1PJtq58A/zbbCB/QY6QqkafQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ADMIN\\Documents\\BàiTapCsharp\\Inheritance\\Lap01\\Exercise03\\Exercise03.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+  ],
+  "logs": []
+}

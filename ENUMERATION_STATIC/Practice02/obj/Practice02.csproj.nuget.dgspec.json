@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\ENUMERATION_STATIC\\Practice02\\Practice02.csproj": {}
+    "C:\\Users\\ADMIN\\Documents\\BàiTapCsharp\\ENUMERATION_STATIC\\Practice02\\Practice02.csproj": {}
   },
   "projects": {
-    "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\ENUMERATION_STATIC\\Practice02\\Practice02.csproj": {
+    "C:\\Users\\ADMIN\\Documents\\BàiTapCsharp\\ENUMERATION_STATIC\\Practice02\\Practice02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\ENUMERATION_STATIC\\Practice02\\Practice02.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\BàiTapCsharp\\ENUMERATION_STATIC\\Practice02\\Practice02.csproj",
         "projectName": "Practice02",
-        "projectPath": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\ENUMERATION_STATIC\\Practice02\\Practice02.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Documents\\BàiTapCsharp\\ENUMERATION_STATIC\\Practice02\\Practice02.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\ENUMERATION_STATIC\\Practice02\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Documents\\BàiTapCsharp\\ENUMERATION_STATIC\\Practice02\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

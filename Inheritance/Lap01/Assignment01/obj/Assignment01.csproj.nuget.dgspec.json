@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\Inheritance\\Lap01\\Assignment01\\Assignment01.csproj": {}
+    "C:\\Users\\ADMIN\\Documents\\BàiTapCsharp\\Inheritance\\Lap01\\Assignment01\\Assignment01.csproj": {}
   },
   "projects": {
-    "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\Inheritance\\Lap01\\Assignment01\\Assignment01.csproj": {
+    "C:\\Users\\ADMIN\\Documents\\BàiTapCsharp\\Inheritance\\Lap01\\Assignment01\\Assignment01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\Inheritance\\Lap01\\Assignment01\\Assignment01.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\Documents\\BàiTapCsharp\\Inheritance\\Lap01\\Assignment01\\Assignment01.csproj",
         "projectName": "Assignment01",
-        "projectPath": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\Inheritance\\Lap01\\Assignment01\\Assignment01.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\Documents\\BàiTapCsharp\\Inheritance\\Lap01\\Assignment01\\Assignment01.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\LearnCSharp\\BàiTapCsharp\\Resources\\Inheritance\\Lap01\\Assignment01\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\Documents\\BàiTapCsharp\\Inheritance\\Lap01\\Assignment01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
